@@ -275,7 +275,7 @@ var AppModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<p>\n  contact works!\n</p>\n"
+module.exports = "<p>\n  Coming soon...\n</p>\n"
 
 /***/ }),
 
@@ -365,7 +365,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ExperienceComponent", function() { return ExperienceComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
-/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm5/operators/index.js");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -377,29 +376,87 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 };
 
 
-
 var ExperienceComponent = /** @class */ (function () {
+    // jobsUrl = 'http://localhost:3000/jobs';
     function ExperienceComponent(httpClient) {
         this.httpClient = httpClient;
-        this.jobsUrl = 'http://localhost:3000/jobs';
+        this.jobs = [
+            {
+                'role': 'Front-End Developer',
+                'companyName': 'Hart Associates',
+                'companyImage': 'https://media.licdn.com/dms/image/C4E0BAQHV7LzO6rI8Hw/company-logo_400_400/0?e=2131920000&v=beta&t=nRjPyDUUgRq74hAXEQ36IzrzV0ZjBrFI2h1lRN5PYAY',
+                'datesEmployed': 'May 2017 – Sep 2017',
+                'location': 'Maumee, Ohio',
+                'jobSkills': [
+                    'Javascript',
+                    'CSS3 - SASS',
+                    'Bootstrap',
+                    'HTML5',
+                    'Wordpress - Gravity - Umbraco',
+                    'Node (NodeJS) - npm - Gulp',
+                    'Git - GitHub',
+                    'Agile - SCRUM - JIRA',
+                    'Responsive - Cross-browser layout',
+                    'Photoshop - Illustrator',
+                    'SublimeText - Atom - VS Code',
+                    'W3C code standards',
+                    'Home Office - working remotely'
+                ]
+            },
+            {
+                'role': 'Front-End Developer Analyst',
+                'companyName': 'CI&T',
+                'companyImage': 'https://media.licdn.com/dms/image/C4D0BAQFZ7C9fK86Q3w/company-logo_400_400/0?e=2131920000&v=beta&t=pQPBt-yilNYHmOZqZVbQTGMaJavRULNkcVG85v1c5ec',
+                'datesEmployed': 'Jul 2016 – May 2017',
+                'location': 'Greater New York City Area',
+                'jobSkills': [
+                    'Home Office - working remotely'
+                ]
+            },
+            {
+                'role': 'Front-End Developer Analyst',
+                'companyName': 'CI&T',
+                'companyImage': 'https://media.licdn.com/dms/image/C4D0BAQFZ7C9fK86Q3w/company-logo_400_400/0?e=2131920000&v=beta&t=pQPBt-yilNYHmOZqZVbQTGMaJavRULNkcVG85v1c5ec',
+                'datesEmployed': 'Mar 2014 – Jun 2016',
+                'location': 'Campinas Area, Brazil',
+                'jobSkills': [
+                    'Javascript - jQuery',
+                    'CSS3 - SASS - LESS - BEM - SMACSS',
+                    'Bootstrap',
+                    'HTML5 - (x)HTML',
+                    'Drupal 7 - Drupal 8',
+                    'Node (NodeJS) - npm - Grunt - Gulp',
+                    'Git - GitHub',
+                    'Agile - SCRUM - JIRA',
+                    'Page speed optimisation - Accessibility - SEO',
+                    'Responsive - Cross-browser layout - Typography - Retina',
+                    'Photoshop - Illustrator',
+                    'SublimeText - Atom',
+                    'W3C code standards'
+                ]
+            },
+            {
+                'role': 'Front-End Developer Junior',
+                'companyNname': 'CI&T',
+                'companyImage': 'https://media.licdn.com/dms/image/C4D0BAQFZ7C9fK86Q3w/company-logo_400_400/0?e=2131920000&v=beta&t=pQPBt-yilNYHmOZqZVbQTGMaJavRULNkcVG85v1c5ec',
+                'datesEmployed': 'Aug 2011 – Feb 2014',
+                'location': 'Campinas Area, Brazil',
+                'jobSkills': [
+                    '(x)HTML - CSS - jQuery',
+                    'Drupal 7',
+                    'Agile - SCRUM - JIRA',
+                    'SVN',
+                    'SublimeText',
+                    'Cross-browser layout - Sprite',
+                    'UX/UI design - Mockups',
+                    'Photoshop - Illustrator',
+                    'W3C code standards'
+                ]
+            }
+        ];
     }
     ExperienceComponent.prototype.ngOnInit = function () {
-        this.getJobs();
-    };
-    // Read all Jobs
-    ExperienceComponent.prototype.getJobs = function () {
-        var _this = this;
-        this.jobsServiceGetJobs()
-            .subscribe(function (jobs) {
-            _this.jobs = jobs;
-            console.log(_this.jobs);
-        });
-    };
-    // Jobs Service: Read all Jobs
-    ExperienceComponent.prototype.jobsServiceGetJobs = function () {
-        return this.httpClient
-            .get(this.jobsUrl)
-            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (data) { return data; }));
+        // this.getJobs();
     };
     ExperienceComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
@@ -486,7 +543,7 @@ var HomeComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<p>\n  skillset works!\n</p>\n"
+module.exports = "<p>\n  Coming soon...\n</p>\n"
 
 /***/ }),
 
