@@ -1,6 +1,6 @@
 {
   "about": {
-    "content": "Lorem ipsum dolor amet mixtape venmo mustache cliche beard DIY truffaut farm-to-table chambray celiac raclette tacos. Vaporware farm-to-table gluten-free irony, keffiyeh pok pok bitters poutine. Trust fund craft beer sartorial, disrupt gastropub brooklyn hashtag tattooed chambray raw denim irony food truck mlkshk poutine. Jean shorts ramps slow-carb, meh craft beer cray bitters echo park tumeric art party. Butcher snackwave 3 wolf moon air plant crucifix shabby chic yr glossier waistcoat. Pug forage art party, occupy listicle fashion axe prism knausgaard truffaut sriracha.\nAesthetic single-origin coffee hammock bespoke vexillologist, chartreuse salvia prism fixie letterpress lo-fi gochujang. Poke kickstarter yr hammock mumblecore typewriter artisan ennui shabby chic brooklyn godard cardigan flannel fashion axe pickled. Cray listicle letterpress enamel pin leggings. Shabby chic slow-carb glossier organic +1, bicycle rights brunch hashtag pitchfork affogato meditation. Stumptown green juice salvia, tote bag tofu knausgaard migas.\nLorem ipsum dolor amet mixtape venmo mustache cliche beard DIY truffaut farm-to-table chambray celiac raclette tacos. Vaporware farm-to-table gluten-free irony, keffiyeh pok pok bitters poutine. Trust fund craft beer sartorial, disrupt gastropub brooklyn hashtag tattooed chambray raw denim irony food truck mlkshk poutine. Jean shorts ramps slow-carb, meh craft beer cray bitters echo park tumeric art party. Butcher snackwave 3 wolf moon air plant crucifix shabby chic yr glossier waistcoat. Pug forage art party, occupy listicle fashion axe prism knausgaard truffaut sriracha.\nAesthetic single-origin coffee hammock bespoke vexillologist, chartreuse salvia prism fixie letterpress lo-fi gochujang. Poke kickstarter yr hammock mumblecore typewriter artisan ennui shabby chic brooklyn godard cardigan flannel fashion axe pickled. Cray listicle letterpress enamel pin leggings. Shabby chic slow-carb glossier organic +1, bicycle rights brunch hashtag pitchfork affogato meditation. Stumptown green juice salvia, tote bag tofu knausgaard migas."
+    "content": "I'm Fernanda, passionate about Front End development and delivering technology solutions that positively impact people's lives.\nBefore I started my career as a Graphic Designer and this experience has honed my keen attention to detail and dedication to solving any problem at hand.\nAs Front End Developer, I started to work for CI&amp;T (https://us.ciandt.com) where I was part of the Johnson &amp; Johnson development team. My professional experience includes bringing the wireframes of the UX designer to life through HTML5, CSS3, and Javascript. As well as collaborating with UX designers and Back End Developers and ensured coherence between all parties to guarantee a stellar finished product.\nAs part of my work routine: I worked in Agile Methodology settings using SCRUM; I tested Front End code in multiple browsers to ensure cross-browser compatibility; I consulted and documented UI best practices and code standards; I participated in projects in all stages of the product life cycle; I developed several global campaigns for Johnson &amp; Johnson's websites.\nIn 2016 I moved from Brazil to the USA, and in 2017 I decided to take a career break for a while and invest my time to get to know a new culture and improve my English skills.\nDuring this time that I am not employed, I’d like to expand my professional skills as well. So, I’m also focusing my studies on Modern Javascript and the latest Angular versions in order to keep myself up-to-date.\nThis page is part of the result of my most recent studies."
   },
   "portfolio": {
     "projects": [
@@ -22,11 +22,16 @@
   },
   "skillset": {
     "skillsList": {
-      "Lorem": "100",
-      "ipsum": "92",
-      "dolor": "61",
-      "amet": "53",
-      "mixtape": "25"
+      "HTML5": "80",
+      "CSS3": "90",
+      "Javascript": "60",
+      "Bootstrap": "70",
+      "Sass": "90",
+      "Gulp": "60",
+      "Responsive Design": "80",
+      "Testing/Debugging": "50",
+      "Browser Developer Tools": "50",
+      "Git": "40"
     }
   },
   "contact": {
